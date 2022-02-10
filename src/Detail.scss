@@ -1,0 +1,35 @@
+// 1. $변수명 : 변수에 넣을 값
+// 2. @import 파일경로
+
+@import "./_reset.scss";
+
+$메인칼라: #eee;
+
+.my-alert {
+  background: #eee;
+  padding: 20px;
+  border-radius: 5px;
+
+  max-width: 500px;
+  max-width: 100%;
+  margin: auto;
+
+  p {
+    margin-bottom: 0px;
+  }
+}
+
+.my-alert-red {
+  @extend .my-alert;
+  background: yellow;
+}
+
+// div.container {
+//   h4 {
+//     color: blue;
+//   }
+
+//   p {
+//     color: green;
+//   }
+// }

@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+.welcome-box {
+  height: 300px;
+  width: 100%;
+  padding: 20px;
+  background-image: url(./background.jpg);
+  background-size: cover;
+  color: #eee;
+}
