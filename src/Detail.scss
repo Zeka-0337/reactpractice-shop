@@ -1,6 +1,15 @@
 // 1. $변수명 : 변수에 넣을 값
 // 2. @import 파일경로
 
+.wow-enter {
+  opacity: 0;
+}
+
+.wow-enter-active {
+  opacity: 1;
+  transition: all 500ms;
+}
+
 @import "./_reset.scss";
 
 $메인칼라: #eee;
